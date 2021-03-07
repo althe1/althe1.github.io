@@ -1,0 +1,47 @@
+html {
+  background: #01012b;
+  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+}
+
+@media only screen and (max-width: 850px) {
+  html {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+}
+
+main {
+  width: 46rem;
+  margin: 0 auto;
+}
+
+.links {
+  font-size: 6rem;
+  margin: 0 9rem;
+  width: 38rem;
+}
+
+.links a {
+  color: 	#ff2a6d;
+  margin-left: 4rem;
+}
+
+.links a:first-of-type {
+  margin-left: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 5rem;
+  color: 	#d1f7ff;
+}
+
+h1 a {
+  color: #05d9e8;
+  text-decoration: none;
+  border-bottom: 0.5rem solid;
+  padding-bottom: 0.15rem;
+}
+
